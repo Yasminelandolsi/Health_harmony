@@ -1,0 +1,15 @@
+# Utilisez l'image officielle MongoDB
+FROM mongo:latest
+
+# Exposez le port 27017 pour MongoDB
+EXPOSE 27017
+
+# Spécifiez le répertoire où MongoDB stockera les données
+VOLUME /data/db
+
+# Définissez les variables d'environnement pour MongoDB
+ENV MONGO_INITDB_ROOT_USERNAME=admin
+ENV MONGO_INITDB_ROOT_PASSWORD=secret
+
+# Commande par défaut pour exécuter MongoDB
+CMD ["mongod"]

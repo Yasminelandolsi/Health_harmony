@@ -1,0 +1,304 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up?",
+        "how is it going"
+      ],
+      "responses": ["hello", "hey!", "what can i do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you later",
+        "goodbye",
+        "have a good day",
+        "bye",
+        "cao",
+        "see ya"
+      ],
+      "responses": ["have a nice day", "goodbye"]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old are you?",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": [
+        "I get reborn after every compilation",
+        "hey!",
+        "my owners are averagely 20 years!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should i call you",
+        "what's your name?",
+        "who are you?",
+        "can you tell me your name"
+      ],
+      "responses": [
+        "you can call me Night!",
+        "i am night!",
+        "i am Night your medical assistant"
+      ]
+    },
+    {
+      "tag": "previous disease",
+      "patterns": ["i had asthma", "i have diabetes"],
+      "responses": [
+        "gop consult doctor as there might be side effects of my suggestion"
+      ]
+    },
+    {
+      "tag": "common cold symptoms",
+      "patterns": [
+        "Runny or stuffy nose",
+        "Sore throat",
+        "Cough",
+        "Congestion",
+        "Slight body aches or a mild headache",
+        "Sneezing",
+        "Low-grade fever",
+        "Generally feeling unwell (malaise)"
+      ],
+      "responses": ["It seems that you are suffering from common cold"]
+    },
+    {
+      "tag": "fever symptoms",
+      "patterns": [
+        "Sweating",
+        "Chills and shivering",
+        "Headache",
+        "Muscle aches",
+        "Loss of appetite",
+        "Irritability",
+        "Dehydration",
+        "General weakness"
+      ],
+      "responses": ["It seems that you are suffering from fever"]
+    },
+    {
+      "tag": "Diabetes symptoms",
+      "patterns": [
+        "increased hunger",
+        "hungry",
+        "increased thirst",
+        "weight loss",
+        "frequent urination",
+        "blurry vision",
+        "extreme fatigue"
+      ],
+      "responses": ["It seems that you are suffering from Diabetes"]
+    },
+    {
+      "tag": "Depression symptoms",
+      "patterns": [
+        "Hopeless outlook",
+        "Lost interest",
+        "Increased fatigue",
+        "sleep problem",
+        "Anxiety",
+        "change in weight",
+        "Looking at death"
+      ],
+      "responses": ["It seem that you are suffering from depression"]
+    },
+    {
+      "tag": "Asthma symptoms",
+      "patterns": [
+        "coughing",
+        "tightness in the chest",
+        "shortness of breath",
+        "difficulty talking",
+        "panic",
+        "fatigue"
+      ],
+      "responses": ["It seem that you are suffering from Asthma"]
+    },
+    {
+      "tag": "common cold prevention",
+      "patterns": [
+        "medicines for cold",
+        "What medicines can I buy to help me with my common cold?",
+        "tell me some prevention method from common cold",
+        "What should I eat or drink if i am suffering from common cold?",
+        "How can I keep from getting a cold or the flu?"
+      ],
+      "responses": [
+        "medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"
+      ]
+    },
+    {
+      "tag": "fever prevention",
+      "patterns": [
+        "What medicines can I buy to help me with my fever?",
+        "tell me some prevention method from fever",
+        "What should I eat or drink if i am suffering from fever?",
+        "medicines for fever"
+      ],
+      "responses": [
+        "medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"
+      ]
+    },
+    {
+      "tag": "diabetes prevention",
+      "patterns": [
+        "medicines for diabetes",
+        "What medicines can I buy to help me with my diabetes?",
+        "tell me some prevention method from diabetes",
+        "What should I eat or drink if i am suffering from diabetes?",
+        "How can I keep from getting diabetes?"
+      ],
+      "responses": [
+        "medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"
+      ]
+    },
+    {
+      "tag": "depression prevention",
+      "patterns": [
+        "medicines for depression",
+        "What medicines can I buy to help me with my depression?",
+        "tell me some prevention method from depression",
+        "What should I eat or drink if i am suffering from depression?",
+        "How can I keep from getting depression?"
+      ],
+      "responses": [
+        "medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"
+      ]
+    },
+    {
+      "tag": "asthma prevention",
+      "patterns": [
+        "medicines for asthma",
+        "What medicines can I buy to help me with my asthma?",
+        "tell me some prevention method from asthma",
+        "What should I eat or drink if i am suffering from asthma?",
+        "How can I keep from getting asthma?"
+      ],
+      "responses": [
+        "medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"
+      ]
+    },
+    {
+      "tag": "skin",
+      "patterns": [
+        "My skin is burning",
+        "There are lot of rashes on my skin",
+        "I have acnes",
+        "My hands are burning",
+        "My hand got burned",
+        "I am having skin related issues",
+        "my skin is going red"
+      ],
+      "responses": [
+        "I think you are having a skin disease",
+        "You can try applying some cooling lotion.It may help",
+        "You should go see a dermatologist!",
+        "Looks like you are having a skin disease.I hope its not cancer!.Go see a doctor."
+      ]
+    },
+    {
+      "tag": "fracture",
+      "patterns": [
+        "My bones are hurting",
+        "My hand is swollen",
+        "I think I broke my hand",
+        "I think I broke my leg",
+        "I fell from a hig place",
+        "I got in accident",
+        "I crashed myself",
+        "car crashed"
+      ],
+      "responses": [
+        "I think you broke your bones.Go see a orthologist",
+        "Try applying some Volini,Maybe it will help!",
+        "Dont move much and go to a doctor.",
+        "I hope you did not break your bones."
+      ]
+    },
+
+    {
+      "tag": "Consultation",
+      "patterns": [
+        "who should i contact for consultation?",
+        "is there any doctor available?",
+        "can you give me some suggestions for doctor consultations?",
+        "can you set up a meeting with a doctor for consultation?",
+        "is there any doctor available for consultation"
+      ],
+      "responses": [
+        "You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."
+      ]
+    },
+
+    {
+      "tag": "medications",
+      "patterns": [
+        "What medications can I take for allergies?",
+        "Tell me about over-the-counter pain relievers",
+        "I need medication for headache"
+      ],
+      "responses": [
+        "For allergies, common medications include antihistamines such as cetirizine or loratadine. For pain relief, you can try ibuprofen or acetaminophen. It's important to consult with a doctor or pharmacist before taking any medication."
+      ]
+    },
+    {
+      "tag": "dietary_recommendations",
+      "patterns": [
+        "What should I eat for better digestion?",
+        "Can you recommend a diet for weight loss?",
+        "Tell me about foods that boost immunity"
+      ],
+      "responses": [
+        "For better digestion, focus on fiber-rich foods like fruits, vegetables, and whole grains. For weight loss, consider a balanced diet with plenty of lean protein, fruits, and vegetables, and limit processed foods and added sugars. Foods that boost immunity include citrus fruits, garlic, yogurt, and leafy greens."
+      ]
+    },
+    {
+      "tag": "exercise_recommendations",
+      "patterns": [
+        "What exercises are good for beginners?",
+        "How often should I exercise?",
+        "Can you suggest some home workout routines?"
+      ],
+      "responses": [
+        "For beginners, start with low-impact exercises like walking, swimming, or cycling. Aim for at least 30 minutes of moderate-intensity exercise most days of the week. There are many home workout routines available online, including bodyweight exercises, yoga, and Pilates."
+      ]
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "How can I reduce stress?",
+        "I'm feeling overwhelmed, what can I do?",
+        "Can you suggest relaxation techniques?"
+      ],
+      "responses": [
+        "To reduce stress, try deep breathing exercises, meditation, yoga, or progressive muscle relaxation. It's also important to prioritize self-care, get enough sleep, and maintain a healthy work-life balance."
+      ]
+    },
+    {
+      "tag": "mental_health_support",
+      "patterns": [
+        "I'm feeling anxious/depressed, what should I do?",
+        "Can you recommend a therapist?",
+        "How can I improve my mental health?"
+      ],
+      "responses": [
+        "If you're feeling anxious or depressed, consider reaching out to a mental health professional for support. You can find therapists in your area through online directories or mental health apps. In addition to therapy, practices like mindfulness, exercise, and social support can help improve mental health."
+      ]
+    }
+  ]
+}
